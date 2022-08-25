@@ -14,7 +14,12 @@ function calc() {
   } else if (operator == 'divide') {
     result = value1 / value2
   }
-  document.querySelector('#result').innerHTML = result.toFixed(3);
+  document.querySelector('#output').innerHTML = result.toFixed(1);
+}
+function style() {
+  const output = document.querySelector('#output');
+  output.classList.add('result-output');
 }
 
-calculate.addEventListener('click', calc)
+calculate.addEventListener('click', style);
+calculate.addEventListener('click', calc);
