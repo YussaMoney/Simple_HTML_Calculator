@@ -4,3 +4,38 @@
   box-sizing: border-box;
   font-size: 15px;
 }
+
+label {
+  display: flex;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+input {
+  font-size: 1.5rem;
+  width: 20rem;
+  border: 3px solid gray;
+  margin-left: 1rem;
+  border-radius: 10px;
+}
+
+select {
+  font-size: 1.5rem;
+  width: 17.6rem;
+  margin-left: 1rem;
+  border: 3px solid gray;
+  text-transform: capitalize;
+  border-radius: 10px;
+}
+
+button {
+  padding: 0.5rem 10rem;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  border: 3px solid gray;
+  border-radius: 15px;
+}
+
+button:hover {
+  background-color: rgb(231, 223, 223);
+}
