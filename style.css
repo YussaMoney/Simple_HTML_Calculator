@@ -39,3 +39,21 @@ button {
 button:hover {
   background-color: rgb(231, 223, 223);
 }
+
+.result-box {
+  display: flex;
+  margin-top: 1rem;
+
+}
+
+#result {
+  font-size: 2rem;
+  margin-right: 0.8rem;
+}
+
+.result-output {
+  border: 3px solid gray;
+  font-size: 2rem;
+  border-radius: 1.2rem;
+  width: 21rem;
+}
