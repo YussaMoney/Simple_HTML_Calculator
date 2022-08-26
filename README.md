@@ -1,6 +1,6 @@
 # Simple HTML_Calculator
 
-This calculator is an **input-made** or **form-made** with selecting operation. It's a simple calculator with only four operation (`addition`, `subtraction`, `multiplication`, and `division`), whereby if the `calculate` button is pressed, shows result below. It only take input from keypress on keyboard in case of `decimal` but also have in-built selection of number range from `0-9`.
+This calculator is an **input-made** or **form-made** with selecting operation. It's a simple calculator with only four operators (`addition`, `subtraction`, `multiplication`, and `division`), whereby if the `calculate` button is pressed, shows result below. It only take input from keypress on keyboard in case of `decimal` but also have in-built selection of number range from `0-9`.
 
 ![Simple HTML_Calculator](Simple-Calculator.png)
 
