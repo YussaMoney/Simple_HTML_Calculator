@@ -42,7 +42,7 @@ button {
   font-size: 1.5rem;
   font-weight: bolder;
   border: 3px solid rgb(115, 255, 0);
-  border-radius: 15px;
+  border-radius: 10px;
 }
 
 button:hover {
@@ -62,7 +62,25 @@ button:hover {
 .result-output {
   border: 3px solid rgb(115, 255, 0);
   font-size: 2rem;
-  border-radius: 1.2rem;
+  border-radius: 10px;
   width: 21rem;
   background-color: whitesmoke;
+}
+
+@media screen and (max-width: 450px) {
+  input {
+    width: 14.8rem;
+  }
+
+  button {
+    padding: 0.5rem 7.5rem;
+  }
+
+  select {
+    width: 12.5rem;
+  }
+
+  .result-output {
+    width: 15.5rem;
+  }
 }
